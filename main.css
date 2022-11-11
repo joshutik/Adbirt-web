@@ -1,0 +1,113 @@
+:root {
+    --color-default: #FF7C00;
+    --color-primary: #0B1C48;
+    --background-color-primary: #FF7C00;
+    --background-color-secondary:#0B1C48;
+}
+/* ----------------------
+the hero styling
+---------------------- */
+body{
+    scroll-behavior: smooth !important;
+}
+
+section{
+    font-family: 'DM Sans'!important;
+}
+
+.navbar-collapse{
+    margin-left: 10rem;
+}
+
+.custom{
+   color:var(--color-default);
+}
+
+a.active {
+    color: #FF7C00 !important;
+}
+
+.btn-advert:hover a{
+    color: white !important;
+    background-color:#D46700 !important;
+}
+
+.btn-get, .button, .navbar-toggler .btn{
+    background-color: #FF7C00 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.btn-get:hover, .button:hover, .navbar-toggler:hover, .btn:hover{
+   background: transparent !important; 
+   color: var(--color-default) !important;
+   border: 1px solid var(--color-default) !important;
+   
+}
+
+.lenear{
+    background: linear-gradient(130.3deg, rgba(1, 6, 19, 0.978) 27.12%, rgb(17, 9, 1) 96.94%);
+}
+
+/* ----------------------
+the commited to.. styling
+---------------------- */
+.pub{
+    color: #6F6400 !important;
+}
+
+.advert{
+    color: var(--color-primary) !important  ;
+}
+
+.card-1{
+    background-color: #F5E67A !important;
+}
+
+.card-2{
+    background-color: #5DCFF3 !important;
+}
+
+/* ----------------------
+the Adbirt.. styling
+---------------------- */
+.section-3, .section-5{
+    background-color: var(--background-color-secondary);
+}
+
+.transperant{
+    background-color: transparent !important;
+}
+
+.flex-cont{
+    margin-top: 7rem !important;
+}
+
+.step{
+  padding: 15% 0% 0% 10% !important;
+}
+
+.accent{
+    color: #0B1C48;
+}
+
+.ft-head{
+    color: var(--color-default) !important ;
+}
+
+.bi-facebook{
+    color: #4267b2;
+}
+.bi-twitter{
+    color: #1DA1F2;
+}
+.bi-instagram{
+    color: #8641B1 62.5%,
+    rgba(250, 155, 60, 0.5052) 94.27%,
+    rgba(250, 155, 60, 0)100%;
+}
+
+.abirt::before{
+    content: "\00A7" !important;
+    display: block !important;
+}
