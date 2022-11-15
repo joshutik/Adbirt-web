@@ -46,7 +46,7 @@ a.active {
     border-radius:0px !important;
 }
 
-.btn-get, .button, .navbar-toggler .btn{
+.btn-get, .button, .navbar-toggler .btn, .input-btn{
     background-color: #FF7C00 !important;
     color: white !important;
     border: none !important;
@@ -112,10 +112,6 @@ the commited to.. styling
     background-color: #5DCFF3 !important;
 }
 
-
-
-
-
 /* ----------------------
 the Adbirt.. styling
 ---------------------- */
@@ -157,6 +153,24 @@ the Adbirt.. styling
 }
 
 .abirt::before{
-    content: "\00A7" !important;
+    content: "" !important;
     display: block !important;
+}
+
+.input-btn{
+    background-color: var(--background-color-primary);
+}
+
+
+.grim{
+    margin-left: 8rem !important;
+}
+
+.form-wd{
+    width: 93% !important;
+    margin: auto !important;
+}
+
+.ft-colr{
+    color: var(--color-primary) !important;
 }
