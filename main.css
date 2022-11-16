@@ -231,3 +231,10 @@ border: 1px solid #CED9FF !important;
 .pub-color{
     color: var(--background-color-secondary) !important;
 }
+
+/* ---------------------------------
+How it Works Page
+---------------------------------- */
+.bg-how-it{
+    background-color:  #010100 !important;
+}
