@@ -9,6 +9,7 @@ the hero styling
 ---------------------- */
 body{
     scroll-behavior: smooth !important;
+    background-color: #F8F2FE !important;
 }
 .glass-bg.scroll{
     background: rgba(0, 0, 0, 0.4) !important;
@@ -51,6 +52,7 @@ a.active {
     color: white !important;
     border: none !important;
 }
+
 .btn-signup-2{
     padding: 0.7rem 5rem  !important;
     border-color: #D56700 !important;
@@ -77,10 +79,10 @@ a.active {
     background-color: gray !important;
 }
 
+/* adbirt btn styling */
 .btn-ad-1:focus, .btn-ad-2:focus{
     color: var(--color-default) !important;
 }
-
 
 .btn-get:hover, .button:hover, .navbar-toggler:hover{
    background: transparent !important; 
@@ -124,9 +126,7 @@ the Adbirt.. styling
     background-color: transparent !important;
 }
 
-.flex-cont{
-    margin-top: 7rem !important;
-}
+
 
 .step{
   padding: 15% 0% 0% 10% !important;
@@ -147,9 +147,11 @@ the Adbirt.. styling
     color: #1DA1F2;
 }
 .bi-instagram{
-    color: #8641B1 62.5%,
+    /* color: #8641B1 62.5%,
     rgba(250, 155, 60, 0.5052) 94.27%,
-    rgba(250, 155, 60, 0)100%;
+    rgba(250, 155, 60, 0)100%; */
+    color: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045)!;
+
 }
 
 .abirt::before{
@@ -173,4 +175,55 @@ the Adbirt.. styling
 
 .ft-colr{
     color: var(--color-primary) !important;
+}
+/* end of landing page */
+
+
+/* -------------------------
+how it works styling
+---------------------------- */
+
+.btn-become{
+    color: #D56700 !important;
+    border-color: #D56700 !important;
+    background: transparent !important; 
+}
+
+/* how it works btn styling */
+/* .btn-ad-a{
+    
+} */
+.btn-ad-a:focus, .btn-ad-p:focus{
+    color: var(--color-default) !important;
+    border-color: var(--color-default) !important;
+    border-width: 1px;
+}
+
+.btn-become:hover{
+    color: white  !important;
+    border: #D56700 !important;
+    background-color: var(--background-color-primary) !important;
+}
+
+/* ---------------
+        cards
+------------------ */
+.create-w{
+background-color: #E4EAFF !important;
+border: 1px solid #CED9FF !important;
+}
+
+.create-ad{
+    background-color: rgba(251, 167, 222, 0.19) !important;
+    border: #FFAEF3 !important;
+}
+
+.fund-wall{
+    background-color: #FFE4E4 !important;
+    border: 1px solid rgba(245, 111, 111, 0.13) !important;
+}
+
+.set-bug{
+    background-color: rgba(225, 236, 66, 0.33) !important;
+    border: 1px solid #F9D75E !important;
 }
