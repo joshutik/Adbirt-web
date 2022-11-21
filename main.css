@@ -203,6 +203,7 @@ how it works styling
     color: white  !important;
     border: #D56700 !important;
     background-color: var(--background-color-primary) !important;
+    border: 1px solid transparent;
 }
 
 /* ---------------
@@ -237,4 +238,27 @@ How it Works Page
 ---------------------------------- */
 .bg-how-it{
     background-color:  #010100 !important;
+}
+
+/* ----------------------
+pricing styling
+------------------------- */
+.pricing-btn{
+    background-color: #FFF087 !important;
+}
+.pricing-btn-2{
+    background-color:  #86DBFF !important;
+}
+.pricing-btn-color{
+    color:   #877600 !important;
+}
+.pricing-btn-color-2{
+    color:  #024765 !important;
+}
+.checkbox-color{
+    color:  #877600 !important ;
+}
+
+.icon-bg{
+    color: var(--color-default) !important;
 }
