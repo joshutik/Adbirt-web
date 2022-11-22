@@ -265,3 +265,19 @@ pricing styling
 .icon-bg{
     color: var(--color-default) !important;
 }
+
+
+
+.form-floating:not(.Subject){
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: calc(10%);
+    left: 0.8rem;
+}
+
+.form-floating:not(.Subject) label, .form-floating .form-control{
+    left: .2rem !important;
+    padding-left: 2.8rem !important;
+}
