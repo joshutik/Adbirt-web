@@ -127,10 +127,10 @@ the Adbirt.. styling
 }
 
 
-
+/* 
 .step{
   padding: 15% 0% 0% 10% !important;
-}
+} */
 
 .accent{
     color: #0B1C48;
@@ -280,4 +280,8 @@ pricing styling
 .form-floating:not(.Subject) label, .form-floating .form-control{
     left: .2rem !important;
     padding-left: 2.8rem !important;
+}
+
+.spn-col{
+    background-color:#FFE5CC !important;
 }
