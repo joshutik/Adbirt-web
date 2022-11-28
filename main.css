@@ -283,5 +283,31 @@ pricing styling
 }
 
 .spn-col{
-    background-color:#FFE5CC !important;
+    background-color:#ffe5cc !important;
+}
+
+/* --------------------
+styling for form
+---------------------- */
+.form-bg{
+    background-color: #C3C9FC !important;
+}
+
+.form-brand{
+    font-size: 20rem !important;
+}
+
+.checkbox-color{
+    color: var(--background-color-primary);
+}
+
+.form-btn{
+    background-color: var(--background-color-primary) !important;
+    color: white !important;
+}
+
+.form-btn:hover{
+    background-color: transparent !important;
+    border: 1px solid var(--background-color-primary) !important;
+    color: var(--background-color-primary) !important;
 }
