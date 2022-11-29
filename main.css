@@ -11,7 +11,34 @@ body{
     scroll-behavior: smooth !important;
     background-color: #F8F2FE !important;
 }
+h1, h2, h3, h4, h5, p, span{
+    font-family: 'DM Sans'!important;
+}
 
+.head{
+    font-size: 8rem !important;
+    margin-top: 5rem !important;
+}
+
+.head-p{
+    font-size: 1.2rem !important;
+    font-weight:200 !important;
+}
+
+.lenear{
+    background: linear-gradient(130.3deg, rgba(1, 6, 19, 0.978) 27.12%, rgb(17, 9, 1) 96.94%);
+    padding-bottom: 5rem !important;
+}
+
+@media screen and (max-Width:995px){
+    .head{
+        
+        font-size:4rem !important;
+    }
+    .lenear{
+        padding-bottom: 1.8rem !important;
+    }
+}
 .glass-bg{
     background: rgba(0, 0, 0, 0.4) !important;
     backdrop-filter: blur(10px) !important;
@@ -19,13 +46,11 @@ body{
     transition: 1.5s ease-in;
 }
 
-section{
+
+section, div{
     font-family: 'DM Sans'!important;
 }
 
-.navbar-collapse{
-    margin-left: 10rem;
-}
 
 .custom{
    color:var(--color-default);
@@ -91,9 +116,7 @@ a.active {
    
 }
 
-.lenear{
-    background: linear-gradient(130.3deg, rgba(1, 6, 19, 0.978) 27.12%, rgb(17, 9, 1) 96.94%);
-}
+
 
 /* ----------------------
 the commited to.. styling
@@ -146,13 +169,17 @@ the Adbirt.. styling
 .bi-twitter{
     color: #1DA1F2;
 }
-.bi-instagram{
-    /* color: #8641B1 62.5%,
-    rgba(250, 155, 60, 0.5052) 94.27%,
-    rgba(250, 155, 60, 0)100%; */
-    color: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045)!;
 
-}
+ /* .bi-instagram{
+   color: #8641B1 62.5%,
+    rgba(250, 155, 60, 0.5052) 94.27%,
+    rgba(250, 155, 60, 0)100%; 
+    color: transparent !important;
+    background-clip: text !important;
+    background-image:linear-gradient( #8641B1, #fa9b3c22, #FA9B3C) !important;
+
+
+} */
 
 .abirt::before{
     content: "" !important;
