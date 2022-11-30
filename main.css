@@ -338,3 +338,6 @@ styling for form
     border: 1px solid var(--background-color-primary) !important;
     color: var(--background-color-primary) !important;
 }
+.form-check-input{
+    color: #86DBFF !important;
+}
