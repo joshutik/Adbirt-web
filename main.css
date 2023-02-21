@@ -297,7 +297,9 @@ pricing styling
 }
 
 
-
+/* -----------------------
+        the form styling
+-------------------------- */
 .form-floating:not(.Subject){
     position: relative;
 }
@@ -307,7 +309,7 @@ pricing styling
     left: 0.8rem;
 }
 
-.form-floating:not(.Subject) label, .form-floating .form-control{
+.form-floating:not(.Subject) label:not(.Subject), .form-floating:not(.Subject) .form-control:not(.Subject){
     left: .2rem !important;
     padding-left: 2.8rem !important;
 }
