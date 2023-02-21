@@ -12,6 +12,7 @@ the hero styling
 body{
     scroll-behavior: smooth !important;
     background-color: #F8F2FE !important;
+    font-family: 'DM Sans'!important;
 }
 h1, h2, h3, h4, h5, p, span{
     font-family: 'DM Sans'!important;
@@ -58,7 +59,7 @@ section, div{
    color:var(--color-default);
 }
 
-a.active {
+a.active, .checkbox-color {
     color: #FF7C00 !important;
 }
 
@@ -322,7 +323,8 @@ pricing styling
 styling for form
 ---------------------- */
 .form-bg{
-    background-color: #C3C9FC !important;
+    background-color: 
+    rgba(195, 201, 252, 0.1) !important;
 }
 
 .form-brand{
